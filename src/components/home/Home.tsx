@@ -2,16 +2,9 @@ import styles from "./home.module.scss";
 import autos from "../../assets/autos.json";
 import fiesta from "./assets/fiesta.jpg";
 import autosVenta from "./assets/autos-png.png";
+import Auto from "../../interfaces/auto"
 
 function Home() {
-  interface Auto {
-    model: string;
-    year: number;
-    mileage: number;
-    transmission: string;
-    img: string;
-    price: number;
-  }
 
   return (
     <>
@@ -29,7 +22,7 @@ function Home() {
         <h1 className={styles.title}>Recomendaciones</h1>
 
         <div className={styles.recomendationContainer}>
-          {autos.map((car: Auto, index: number) => {
+          {autos.slice(0,3).map((car: Auto, index: number) => {
             return (
               <div key={index} className={styles.cardRecomendation}>
                 <img src={fiesta} alt={"imagen de " + car.model} />

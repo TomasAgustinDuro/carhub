@@ -1,0 +1,126 @@
+.inputContainer {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box; 
+    padding: 0 20px;
+  }
+  
+  .input {
+    width: calc(100% - 40px); 
+    height: 40px;
+    padding: 10px;
+    transition: 0.2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-sizing: border-box; 
+  }
+  
+  .icon {
+    position: absolute;
+    right: 20px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+  }
+  
+  .input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+  }
+  
+  @keyframes anim {
+    0%,
+    100% {
+      transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+  
+    50% {
+      transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+  }
+  
+  main {
+    display: flex;
+    margin-top: 1em;
+
+  
+  .containerFilters {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    .filters > *{
+        padding: .5em 0 ;
+        margin: .5em 0;
+    }
+
+    .filterActions{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+        font-weight: bolder;
+      }
+
+  }
+  
+  .containerCarsOffer {
+    width: 75%;
+    margin: auto;
+
+    .offerActions {
+      display: flex;
+      justify-content: space-around;
+      font-weight: bolder;
+    }
+    
+    .containerCards {
+      padding: 1em;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5em;
+    }
+    
+    .cardSell {
+      box-sizing: border-box;
+      background: rgba(217, 217, 217, 0.58);
+      border: 1px solid white;
+      backdrop-filter: blur(6px);
+      border-radius: 17px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.5s;
+      user-select: none;
+      font-weight: bolder;
+      color: black;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+  
+    }
+    
+    .cardSell:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    
+    .cardSell:active {
+      transform: scale(0.95) rotateZ(1.7deg);
+    }
+
+    button {
+        color: white;
+        margin: 0.5em auto;
+      }
+  }
+  
+}

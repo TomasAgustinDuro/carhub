@@ -1,0 +1,60 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%; /* Ajusta el ancho según sea necesario */
+  }
+  
+  .dropdownButton {
+    background-color: inherit;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+      font-size: 1.5em;
+    }
+  }
+  
+  .dropdownMenu {
+    padding: 0; /* Elimina el padding si es necesario */
+    margin: 0; /* Elimina el margen si es necesario */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .dropdownMenu li {
+    border: solid 1px transparent; /* Sin borde por defecto */
+    border-left: none; /* Elimina el borde a la izquierda */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  
+  .dropdownMenu li {
+    border: solid 1px transparent; /* Elimina el borde a la izquierda si no lo quieres */
+    border-left: none; /* Elimina el borde a la izquierda específicamente */
+    color: black;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
+  }
+  
+  .dropdownMenu li:hover {
+    background-color: #f1f1f1;
+  }
+  

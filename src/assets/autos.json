@@ -30,5 +30,85 @@
     "transmission": "Automática",
     "img": "https://images.unsplash.com/photo-1598306580081-4c9a46f081b1",
     "price": 3800000
+  },
+  {
+    "model": "Honda Civic",
+    "year": 2021,
+    "mileage": 25000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+    "price": 3900000
+  },
+  {
+    "model": "Nissan Sentra",
+    "year": 2017,
+    "mileage": 50000,
+    "transmission": "Manual",
+    "img": "https://images.unsplash.com/photo-1523986371872-9d3ba2e2f5bc",
+    "price": 2700000
+  },
+  {
+    "model": "Hyundai Elantra",
+    "year": 2020,
+    "mileage": 20000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1597008533462-b450dba4d526",
+    "price": 3600000
+  },
+  {
+    "model": "Kia Rio",
+    "year": 2019,
+    "mileage": 40000,
+    "transmission": "Manual",
+    "img": "https://images.unsplash.com/photo-1563729784474-023a1ebf98b6",
+    "price": 3100000
+  },
+  {
+    "model": "Mazda 3",
+    "year": 2022,
+    "mileage": 15000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1571607383158-06c79a46937a",
+    "price": 4200000
+  },
+  {
+    "model": "Subaru Impreza",
+    "year": 2018,
+    "mileage": 70000,
+    "transmission": "Manual",
+    "img": "https://images.unsplash.com/photo-1586987224966-d3ba3708bb4b",
+    "price": 2500000
+  },
+  {
+    "model": "Audi A4",
+    "year": 2020,
+    "mileage": 30000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1617988257686-e50a9f7a0630",
+    "price": 4700000
+  },
+  {
+    "model": "BMW Serie 3",
+    "year": 2021,
+    "mileage": 15000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1614600952244-cd334d6489f6",
+    "price": 5200000
+  },
+  {
+    "model": "Mercedes-Benz C-Class",
+    "year": 2019,
+    "mileage": 40000,
+    "transmission": "Automática",
+    "img": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+    "price": 4900000
+  },
+  {
+    "model": "Peugeot 308",
+    "year": 2018,
+    "mileage": 60000,
+    "transmission": "Manual",
+    "img": "https://images.unsplash.com/photo-1572034708992-210d6360aabb",
+    "price": 2600000
   }
 ]
