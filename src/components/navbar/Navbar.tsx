@@ -1,4 +1,5 @@
 import styles from "./navbar.module.scss";
+import Dropdown from "../Dropdown";
 
 function Navbar() {
   return (
@@ -10,14 +11,9 @@ function Navbar() {
         <ul>
           <li>Comprá un auto</li>
           <li>Vendé tu auto</li>
-          <li>
-            Nosotros
-            {/* <ul>
-              <li>Sucursales</li>
-              <li>Opiniones</li>
-              <li>Historia</li>
-            </ul> */}
-          </li>
+         <li>
+          <Dropdown initialState={'Nosotros'} options={['Preguntas frecuentes', 'Opiniones', 'Historia']}/>
+         </li>
           <li>Dolar</li>
         </ul>
       </nav>

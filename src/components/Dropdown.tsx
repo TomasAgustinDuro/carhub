@@ -1,31 +1,46 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types'; // Si usas JavaScript, asegúrate de instalar prop-types
-import styles from './Dropdown.module.css';
 import { RiArrowDropDownLine } from "react-icons/ri";
+import styles from './Dropdown.module.css';
 
-function Dropdown({ initialState, options }) {
+interface DropdownProps {
+  initialState: string;
+  options: string[];
+}
+
+function Dropdown({ initialState, options }: DropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(initialState);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
-  const handleItemClick = (item) => {
+  const handleItemClick = (item: string) => {
     setSelectedItem(item);
     setIsOpen(false);
   };
 
   return (
-    <div className={styles.dropdown} onClick={toggleDropdown} role="button" aria-haspopup="true" aria-expanded={isOpen}>
-        
-      <button className={styles.dropdownButton} aria-haspopup="true">
-        {selectedItem}
-        <RiArrowDropDownLine />      
+    <div className={styles.dropdown}>
+      <button
+        className={styles.dropdownButton}
+        onClick={toggleDropdown}
+      >
+        {selectedItem} <RiArrowDropDownLine />
       </button>
 
       {isOpen && (
-        <ul className={styles.dropdownMenu}>
+        <ul
+          className={styles.dropdownMenu}
+          style={{
+            position: selectedItem === 'Nosotros' ? 'absolute' : 'relative', 
+            top: selectedItem === 'Nosotros' ? '100%' : 'auto',
+            zIndex: selectedItem === 'Nosotros' ? 1000 : 'auto'  // Asegura que el dropdown se superponga correctamente
+          }} 
+        >
           {options.map((option, index) => (
-            <li key={index} onClick={() => handleItemClick(option)} role="option">
+            <li
+              key={index}
+              onClick={() => handleItemClick(option)}
+            >
               {option}
             </li>
           ))}
@@ -34,14 +49,5 @@ function Dropdown({ initialState, options }) {
     </div>
   );
 }
-
-Dropdown.propTypes = {
-  initialState: PropTypes.string,
-  options: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
-
-Dropdown.defaultProps = {
-  initialState: 'Select an option',
-};
 
 export default Dropdown;

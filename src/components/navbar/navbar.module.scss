@@ -9,8 +9,21 @@
 
 .nav ul {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 1.5em;
     text-decoration: none;
     list-style: none;
 }
+
+.nav li {
+    border: none;
+    display: flex;
+
+    & li:hover {
+        border: none;
+    }
+}
+
+
+
