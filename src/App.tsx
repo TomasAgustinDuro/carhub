@@ -4,6 +4,7 @@ import Navbar from './components/navbar/navbar'
 import Footer from './components/footer/Footer'
 import SellCar from './components/sellCar/SellCar'
 import Preguntas from './components/nosotros/preguntas/preguntas'
+import Dolar from './components/Dolar/Dolar'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar/>
       {/* <Home/> */}
       {/* <SellCar /> */}
-      <Preguntas />
+      {/* <Preguntas /> */}
+      <Dolar />
       <Footer /> 
     </>
   )
