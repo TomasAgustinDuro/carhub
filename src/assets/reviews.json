@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "date": "2024-10-01",
+      "review": "Purchased a car last week and the process was seamless. The staff was very helpful!"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "date": "2024-10-02",
+      "review": "I had a great experience buying my new car. The sales team answered all my questions."
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "date": "2024-10-03",
+      "review": "The quality of the car I bought exceeded my expectations. Highly recommend!"
+    },
+    {
+      "id": 4,
+      "name": "Michael Brown",
+      "date": "2024-10-04",
+      "review": "I faced some issues with the paperwork, but the staff resolved it quickly."
+    },
+    {
+      "id": 5,
+      "name": "Sarah Wilson",
+      "date": "2024-10-05",
+      "review": "Excellent customer service! They really care about their clients."
+    }
+]

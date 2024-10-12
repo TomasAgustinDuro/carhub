@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  flex-direction: row;
+
+  .containerFormReviews {
+    flex: 1;
+  }
+
+  .containerReview {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+
+    .reviewsHeader {
+      display: flex;
+      gap: 1em;
+
+      p:nth-of-type(2) {
+        color: #666; /* Un tono más oscuro que #999 */
+        font-style: italic;
+        font-size: .8em;
+      }
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1em;
+        gap: 0.5em;
+      }
+    }
+
+    #textReview {
+      font-style: italic;
+    }
+  }
+}

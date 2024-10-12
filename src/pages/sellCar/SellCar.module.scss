@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+
+  .containerCarsOffer {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+
+    .offerActions {
+      display: flex;
+      justify-content: space-around;
+      font-weight: bolder;
+    }
+
+    .containerCards {
+      padding: 1em;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5em;
+    }
+
+    button {
+      color: white;
+      margin: 0.5em auto;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+  .selectedImage {
+    position: relative;
+    
+    img {
+      width: 100%;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      margin: 0;
+      display: block;
+    }
+  }
+
+  .arrowButtonLeft,
+  .arrowButtonRight {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 1.5em; 
+    cursor: pointer;
+    color: white;
+    transition: color 0.2s; 
+
+    &:hover {
+      color: grey; 
+    }
+
+    &:disabled {
+      color: #e0e0e0; // Color cuando está deshabilitado
+      cursor: not-allowed;
+    }
+  }
+
+  .arrowButtonLeft {
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+  }
+
+  .arrowButtonRight {
+    right: 10px; // Ajusta la posición de la flecha derecha
+    top: 50%;
+    transform: translateY(-50%); // Centra verticalmente
+  }
+
+  .imageThumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em; // Espacio entre la parte superior y las miniaturas
+
+    .thumbnail {
+      width: 100px;
+      height: 75px;
+      margin: 0 0.5em;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      cursor: pointer;
+      object-fit: cover; // Asegura que las imágenes mantengan sus proporciones
+
+      &:hover {
+        border-color: #ccc;
+      }
+
+      &.active {
+        border-color: black; // Cambia el borde de la imagen activa
+      }
+    }
+  }
+}
