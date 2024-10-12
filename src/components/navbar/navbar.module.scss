@@ -3,27 +3,30 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: .5em;
+    padding: 0 1.5em;
     align-items: center;
-}
 
-.nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
-    text-decoration: none;
-    list-style: none;
-}
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        text-decoration: none;
+        list-style: none;
 
-.nav li {
-    border: none;
-    display: flex;
+        
+        & li {
+        display: flex;
 
-    & li:hover {
-        border: none;
+            & li:hover {
+                border: none;
+            }
+        }
     }
 }
+
+
+
 
 
 

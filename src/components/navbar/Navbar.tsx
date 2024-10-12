@@ -1,5 +1,6 @@
 import styles from "./navbar.module.scss";
-import Dropdown from "../Dropdown";
+import Dropdown from "../dropdown/Dropdown";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -9,12 +10,23 @@ function Navbar() {
           <h1>CarHub</h1>
         </div>
         <ul>
-          <li>Comprá un auto</li>
+          <li>
+            <Link to="/sell-car" className="link link-black">Comprá un auto</Link>
+          </li>
           <li>Vendé tu auto</li>
-         <li>
-          <Dropdown initialState={'Nosotros'} options={['Preguntas frecuentes', 'Opiniones', 'Historia']}/>
-         </li>
-          <li>Dolar</li>
+          <li>
+            <Dropdown
+              initialState={"Nosotros"}
+              options={[
+                { label: "Preguntas frecuentes", path: "/preguntas" },
+                { label: "Opiniones", path: "/reviews" },
+                { label: "Historia" },
+              ]}
+            />
+          </li>
+          <li>
+            <Link to="/dolar" className="link link-black">Dolar</Link>
+          </li>
         </ul>
       </nav>
     </>

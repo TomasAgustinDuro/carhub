@@ -4,7 +4,7 @@
     "year": 2019,
     "mileage": 45000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1566438480-cd7fa65c3e0a",
+    "img": "fiesta.jpg",
     "price": 3500000
   },
   {
@@ -12,7 +12,7 @@
     "year": 2018,
     "mileage": 60000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1563455077-2b0b2f5c2d8b",
+    "img": "fiesta.jpg",
     "price": 2900000
   },
   {
@@ -20,7 +20,7 @@
     "year": 2021,
     "mileage": 30000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1599344685954-ff02d636b36d",
+    "img": "fiesta.jpg",
     "price": 2800000
   },
   {
@@ -28,7 +28,7 @@
     "year": 2020,
     "mileage": 35000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1598306580081-4c9a46f081b1",
+    "img": "fiesta.jpg",
     "price": 3800000
   },
   {
@@ -36,7 +36,7 @@
     "year": 2021,
     "mileage": 25000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d",
+    "img": "fiesta.jpg",
     "price": 3900000
   },
   {
@@ -44,7 +44,7 @@
     "year": 2017,
     "mileage": 50000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1523986371872-9d3ba2e2f5bc",
+    "img": "fiesta.jpg",
     "price": 2700000
   },
   {
@@ -52,7 +52,7 @@
     "year": 2020,
     "mileage": 20000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1597008533462-b450dba4d526",
+    "img": "fiesta.jpg",
     "price": 3600000
   },
   {
@@ -60,7 +60,7 @@
     "year": 2019,
     "mileage": 40000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1563729784474-023a1ebf98b6",
+    "img": "fiesta.jpg",
     "price": 3100000
   },
   {
@@ -68,7 +68,7 @@
     "year": 2022,
     "mileage": 15000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1571607383158-06c79a46937a",
+    "img": "fiesta.jpg",
     "price": 4200000
   },
   {
@@ -76,7 +76,7 @@
     "year": 2018,
     "mileage": 70000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1586987224966-d3ba3708bb4b",
+    "img": "fiesta.jpg",
     "price": 2500000
   },
   {
@@ -84,7 +84,7 @@
     "year": 2020,
     "mileage": 30000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1617988257686-e50a9f7a0630",
+    "img": "fiesta.jpg",
     "price": 4700000
   },
   {
@@ -92,7 +92,7 @@
     "year": 2021,
     "mileage": 15000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1614600952244-cd334d6489f6",
+    "img": "fiesta.jpg",
     "price": 5200000
   },
   {
@@ -100,7 +100,7 @@
     "year": 2019,
     "mileage": 40000,
     "transmission": "Automática",
-    "img": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+    "img": "fiesta.jpg",
     "price": 4900000
   },
   {
@@ -108,7 +108,7 @@
     "year": 2018,
     "mileage": 60000,
     "transmission": "Manual",
-    "img": "https://images.unsplash.com/photo-1572034708992-210d6360aabb",
+    "img": "fiesta.jpg",
     "price": 2600000
   }
 ]
